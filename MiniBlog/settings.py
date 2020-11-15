@@ -25,7 +25,7 @@ SECRET_KEY = '^mh!zt2no%qc$g4u)5t&ad@ow18j0r4(0_ns^9re+pc0v_abtr'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['miniblogdjango.herokuapp.com']
 
 
 # Application definition

@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+{% block title %}Blog{% endblock title %}
+{% block body %}
+<h4 class="my-3 mx-2"><u>{{post.title}}</u></h4>
+<img src="{{post.image.url}}" class="mx-2" height="200px">
+<p class="mx-2 my-3">{{post.content}}</p>
+{% endblock body %}
